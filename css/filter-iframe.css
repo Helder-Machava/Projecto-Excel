@@ -2,6 +2,24 @@
     --Botoes: #FC6200;
 }
 
+/*PRELOADER*/
+
+#preloader{
+    background: #f5f7f6 url(../img/loader.gif) no-repeat center;
+    background-size: 55%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+
+
+
+
+
+
+
 .filter{
     width: 100vw;
 }
@@ -39,6 +57,38 @@ input[type='radio']{
 }
 
 /*FAZER O FILTER COM JAVASCRIPT */
+
+
+/* IFRAMES AND QUIZS*/
+
+.quiz{
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

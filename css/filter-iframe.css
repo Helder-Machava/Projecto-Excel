@@ -6,7 +6,7 @@
 
 #preloader{
     background: #f5f7f6 url(../img/loader.gif) no-repeat center;
-    background-size: 55%;
+    background-size: 550px;
     height: 100vh;
     width: 100%;
     position: fixed;

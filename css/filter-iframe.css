@@ -48,10 +48,10 @@ input[type='radio']{
 
 /* FILTER CSS*/
 
-#all:checked ~ .botoes .all,
-#design:checked ~ .botoes .design,
-#wood:checked ~ .botoes .wood,
-#webdev:checked ~ .botoes .webdev{
+#btn1:checked ~ .botoes .btn1,
+#btn2:checked ~ .botoes .btn2,
+#btn3:checked ~ .botoes .btn3,
+#btn4:checked ~ .botoes .btn4{
     background-color: #333333;
     color: #fff;
 }
@@ -62,32 +62,8 @@ input[type='radio']{
 /* IFRAMES AND QUIZS*/
 
 .quiz{
-    margin-top: 50px;
+    margin-top: 65px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -97,14 +73,14 @@ input[type='radio']{
         margin: 0 10px 0 10px;
     }    
     .tag{
-        font-size: .8rem;
+        font-size: .72rem;
         padding: 0;
     }
 }
 
-@media screen and (max-width:377px) {
+@media screen and (max-width:386px) {
     .tag{
-        font-size: .75rem;
+        font-size: .65rem;
     }
 }
 @media screen and (max-width:360px) {
@@ -112,9 +88,9 @@ input[type='radio']{
         margin: 0 8px 0 8px;
     }    
 }
-@media screen and (max-width:338px) {
+@media screen and (max-width:357px) {
     .tag{
-        font-size: .7rem;
+        font-size: .54rem;
     }
 }
 @media screen and (max-width:320px) {
@@ -124,6 +100,6 @@ input[type='radio']{
 }
 @media screen and (max-width:317px) {
     .tag{
-        font-size: .65rem;
+        font-size: .52rem;
     }
 }

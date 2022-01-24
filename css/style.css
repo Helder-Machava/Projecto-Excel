@@ -4,9 +4,9 @@
 :root {
     --azul-claro: #2294b1;
     --fundo: #ffffff;
-    --cabecalho: #FC6200;
+    --cabecalho: #038065;
     --rodape: #023047e3;
-    --azul-escuro: #023047c1;
+    --azul-escuro: #383838c1;
     --azul-fonte: #023047;
 
 }
@@ -80,9 +80,9 @@ header {
 .contacto {
     font-size: .8em;
     font-weight: 400;
-    line-height: 10px;
+    line-height: .1px;
     padding: 20px;
-    margin-right: 20px;
+    margin: 5px 5px 5px 0;
     text-align: center;
     border-radius: 22px;
     background-color: #ff000044;
@@ -114,7 +114,7 @@ section {
     background-color: var(--azul-escuro);
     width: 100%;
     height: 220px;
-    background-image: url(../img/fundo.jpg);
+    background-image: url(../img/);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -138,7 +138,8 @@ section {
 #mainIframe {
     max-width: 900px;
     margin: 0 auto;
-    padding: 100px 0 0;
+    /*padding: 100px 0 0;*/
+    padding: 50px 0 0;
 }
 
 .responsive {
@@ -182,45 +183,6 @@ footer {
 
 
 
-@media screen and (max-width:490px) {
-    .seta {
-        font-size: 30px;
-    }
-    
-}
-@media screen and (max-width:460px) {
-    .seta {
-        font-size: 28px;
-    }
-    
-}
-
-@media screen and (max-width:430px) {
-    .back {
-        line-height: 50px;
-        width: 50px;
-    }
-    
-    .seta {
-        font-size: 22px;
-    }
-    
-
-}
-@media screen and (max-width:320px) {
-    .back {
-        line-height: 50px;
-        width: 45px;
-    }
-    
-    .seta {
-        font-size: 22px;
-    }
-    
-
-}
-
-
 /********************************/
 @media screen and (max-width:490px) {
     
@@ -229,13 +191,6 @@ footer {
         font-size: 1.1em;
   
     }
-    .contacto {
-        font-size: 1em;
-        line-height: 15px;
-        padding: 15px;
-        margin-right: 10px;
-        border-radius: 20px;
-    }    
         
 }
 @media screen and (max-width:460px) {
@@ -264,20 +219,7 @@ footer {
         font-size: 0.9em;
   
     }
-    .contacto {
-        font-size: 1em;
-        line-height: 25px;
-        padding: 10px;
-        margin-right: 10px;
-        border-radius: 20px;
-    }    
         
-}
-@media screen and (max-width:364px) {
-    .contacto {
-        line-height: 30px;
-    }    
-
 }
 @media screen and (max-width:320px) {
     
@@ -287,11 +229,10 @@ footer {
   
     }
     .contacto {
-        font-size: .8em;
-        line-height: 30px;
+        font-size: .65em;
+        line-height: 19px;
         padding: 10px;
-        margin-right: 5px;
-        border-radius: 20px;
+        border-radius: 24px;
     }    
         
 }

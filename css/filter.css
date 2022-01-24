@@ -1,11 +1,5 @@
 :root {
-    --azul-claro: #2294b1;
-    --fundo: #ffffff;
-    --cabecalho: #FC6200;
-    --rodape: #023047e3;
-    --azul-escuro: #023047c1;
-    --azul-fonte: #023047;
-
+    --Botoes: #FC6200;
 }
 
 .filter{
@@ -53,27 +47,24 @@ input[type='radio']{
         margin: 0 10px 0 10px;
     }    
     .tag{
-        font-size: .7rem;
+        font-size: .8rem;
         padding: 0;
     }
 }
 
 @media screen and (max-width:377px) {
     .tag{
-        font-size: .65rem;
+        font-size: .75rem;
     }
 }
 @media screen and (max-width:360px) {
     .botoes{
         margin: 0 8px 0 8px;
     }    
-    .tag{
-        font-size: .6rem;
-    }
 }
 @media screen and (max-width:338px) {
     .tag{
-        font-size: .55rem;
+        font-size: .7rem;
     }
 }
 @media screen and (max-width:320px) {
@@ -83,6 +74,6 @@ input[type='radio']{
 }
 @media screen and (max-width:317px) {
     .tag{
-        font-size: .5rem;
+        font-size: .65rem;
     }
 }

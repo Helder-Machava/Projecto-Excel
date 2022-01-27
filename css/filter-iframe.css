@@ -60,13 +60,22 @@ input[type='radio']{
 
 
 /* IFRAMES AND QUIZS*/
-
+.flexy{
+    display: flex;
+    justify-content: center;
+}
 .quiz{
     margin-top: 95px;
+    max-width: 950px;
 }
 
 
-
+@media screen and (max-width:768px) {
+    .quiz{
+        max-width: 700px;
+    }
+    
+}
 
 @media screen and (max-width:513px) {
     .botoes{

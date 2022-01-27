@@ -5,7 +5,7 @@
     --azul-claro: #2294b1;
     --fundo: #ffffff;
     --cabecalho: #038065;
-    --rodape: #023047e3;
+    --rodape: #073027;
     --azul-escuro: #383838c1;
     --azul-fonte: #023047;
 
@@ -154,13 +154,14 @@ section {
 
 */
 .welcome {
-    font-size: 1.5em;
+    font-size: 2.5em;
     text-align: center;
-    margin:20px 0 5px 0;
+    margin:30px 0 5px 0;
     width: 100%;
 }
 .sub-come{
-    font-size: 1.2em;
+    padding-top: 10px;
+    font-size: 1.5em;
     text-align: center;
     margin: 0 0 30px 0;
     width: 100%;
@@ -168,8 +169,16 @@ section {
 
 /**********************************/
 /********* IFRAME RESPONSIVE **********/
-#mainIframe {
+#mainIframe1 {
     max-width: 900px;
+    margin: 0 auto;
+    /*padding: 100px 0 0;*/
+    padding: 15px 0 65px 0;
+}
+
+#mainIframe {
+    max-width: 600px;
+    min-width: 250px;
     margin: 0 auto;
     /*padding: 100px 0 0;*/
     padding: 50px 0 0;
@@ -182,11 +191,13 @@ section {
     position: relative;
 }
 
-.responsive img {
+.responsive img,
+iframe {
     position: absolute;
     width: 100%;
     height: 100%;
 }
+
 
 
 .off{
@@ -225,14 +236,14 @@ footer {
     width: 100%;
     height: 40px;
     background-color: var(--rodape);
-    font-weight: 200;
+    font-weight: 300;
     margin-top: 250px;
 }
 
 .copy {
     line-height: 40px;
     text-align: center;
-    font-size: .9em;
+    font-size: .7em;
 }
 
 .copy a{
@@ -245,6 +256,16 @@ footer {
 
 
 /********************************/
+@media screen and (max-width:670px) {
+    .welcome {
+        font-size: 1.9em;
+    }
+    .sub-come{
+        font-size: 1.2em;
+    }
+   
+}
+
 @media screen and (max-width:490px) {
     
     .logo {
@@ -262,8 +283,14 @@ footer {
         width: 180px;
   
     }
-        
-}
+    .welcome {
+        font-size: 1.5em;
+    }
+    .sub-come{
+        font-size: 1em;
+    }
+      
+}   
 @media screen and (max-width:430px) {
     .logo {
         flex-grow: .8;
@@ -293,7 +320,15 @@ footer {
         font-size: .65em;
         padding: 10px;
         border-radius: 24px;
-    }    
+    }  
+    
+    .welcome {
+        font-size: 1.35em;
+    }
+    .sub-come{
+        font-size: 1.1em;
+    }
+    
         
 }
 
